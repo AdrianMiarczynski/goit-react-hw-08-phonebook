@@ -1,6 +1,6 @@
-import ContactsForm from 'components/Contactsform/Contactsform';
-import { ContactsList } from 'components/Contactslist';
-import FilterContacts from 'components/Filter/Filter';
+import ContactsForm from 'components/contactsform/contactsform';
+import { ContactsList } from 'components/contactslist';
+import FilterContacts from 'components/filter/filter';
 import { fetchContacts } from 'components/redux/operations';
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';

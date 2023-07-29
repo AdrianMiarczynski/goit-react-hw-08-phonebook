@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import css from './contactsform.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectContacts } from 'components/redux/selectors';
@@ -62,7 +61,4 @@ const ContactsForm = () => {
 };
 export default ContactsForm;
 
-// ContactsForm.propTypes = {
-//   addContacts: PropTypes.func.isRequired,
-//   filterContacts: PropTypes.func.isRequired,
-// };
+

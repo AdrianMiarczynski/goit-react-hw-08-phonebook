@@ -1,1 +1,1 @@
-export * from './Contactsform';
+export * from './contactsform';
