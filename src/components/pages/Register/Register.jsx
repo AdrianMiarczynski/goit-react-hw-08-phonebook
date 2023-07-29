@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 export const Register = () => (
   <div>
     <Helmet>
-      <title>Register</title>
+      <title>Login</title>
     </Helmet>
     <RegisterForm />
   </div>
