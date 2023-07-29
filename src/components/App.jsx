@@ -1,7 +1,5 @@
 import { useDispatch } from 'react-redux';
-// import ContactsForm from './Contactsform/Contactsform';
 // import Contacts from './Contactslist/Contactslist';
-// import FilterContacts from './Filter/Filter';
 // import { fetchContacts } from './redux/operations';
 
 import { Route, Routes } from 'react-router-dom';
@@ -40,7 +38,7 @@ export const App = () => {
           path="/register"
           element={
             <RestrictedRoute
-              redirectTo="contacts"
+              redirectTo="/contacts"
               component={<RegisterPage />}
             />
           }

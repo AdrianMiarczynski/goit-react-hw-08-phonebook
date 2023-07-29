@@ -7,7 +7,7 @@ import {
   selectFilterContacts,
 } from 'components/redux/selectors';
 
-const Contacts = () => {
+export const ContactsList = () => {
   const dispatch = useDispatch();
 
   const contats = useSelector(selectContacts);
@@ -35,9 +35,9 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default ContactsList;
 
-Contacts.protoTypes = {
+ContactsList.protoTypes = {
   contacts: PropTypes.array.isRequired,
   deleteContact: PropTypes.func.isRequired,
   filter: PropTypes.func.isRequired,
