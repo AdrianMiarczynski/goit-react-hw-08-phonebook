@@ -19,9 +19,9 @@ export const ContactsList = () => {
 
   return (
     <ul className={css.list}>
-      {filter.map(({ name, id, phone }) => (
+      {filter.map(({ name, id, number }) => (
         <li key={id} className={css['list__items']}>
-          {name}: <span>{phone}</span>
+          {name}: <span>{number}</span>
           <button
             type="submit"
             className={css['list__items-btn']}

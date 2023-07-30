@@ -1,21 +1,12 @@
-const styles = {
-  container: {
-    minHeight: 'calc(100vh-50px)',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontWeugth: 500,
-    fontSize: 48,
-    textAlign: 'center',
-  },
-};
-
+import css from './home.module.css';
+import imageHome from '../../../images/contact-g6700a1fc0_1280.jpg';
 export const Home = () => {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>Hello World !!! this is Home page</h1>
+    <div className={css.container}>
+      <h1 className={css.title}>Contacts Comunity</h1>
+      <div className={css['image-wrapper']}>
+        <img src={imageHome} width="400px" alt="network-people" />
+      </div>
     </div>
   );
 };
