@@ -1,5 +1,5 @@
 import css from './home.module.css';
-import imageHome from '../../../images/contact-g6700a1fc0_1280.jpg';
+import imageHome from '../../../images/contacts-comunity.jpg';
 export const Home = () => {
   return (
     <div className={css.container}>
